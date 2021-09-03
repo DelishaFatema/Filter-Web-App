@@ -1,0 +1,26 @@
+body {
+    background-image: url(https://st2.depositphotos.com/3369547/7425/v/600/depositphotos_74251581-stock-illustration-mustache-background.jpg);
+}
+
+canvas {
+    animation-name: boy_example;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes boy_example {
+    from {
+        box-shadow: 1px 1px 48px red;
+    }
+    to {
+        box-shadow: 1px 1px 48px yellow;
+    }
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+h3 {
+    font-size: 25px !important;
+}

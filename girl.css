@@ -1,0 +1,26 @@
+body {
+    background-image: url(https://media.istockphoto.com/vectors/vector-seamless-pattern-lipsticks-watercolor-blots-and-splashes-vector-id519386932);
+}
+
+canvas {
+    animation-name: girl_example;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes girl_example {
+    from {
+        box-shadow: 1px 1px 48px red;
+    }
+    to {
+        box-shadow: 1px 1px 48px yellow;
+    }
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+h3 {
+    font-size: 25px !important;
+}
